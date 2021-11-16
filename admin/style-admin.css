@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    background-color: grey;
+}
+
+ul{
+    background-color: pink; 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+ul li{
+    margin-right: 30px;
+    padding: 8px 0;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+}
+ul li a:hover{
+  background-color: pink;
+  font-weight: bold;
+    
+}
+
+section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+section.wrapper .category{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 25px;
+    background-color: #fff;
+    margin: 0 25px;
+}
+section.wrapper .category h2,p{
+   text-align: center;
+}
+
+table{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+table tr td{
+    padding: 6px 0 ;
+   text-align: left;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.btn-primary{
+    background-color: rgb(54, 73, 245);    
+}
+.btn-success{
+    background-color: green;
+}
+.btn-danger{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
