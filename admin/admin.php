@@ -1,9 +1,18 @@
 <?php include 'partials/_menu.php'?>
-<?php include('../config/database.php');?>
     <div class="main-container">
         <h1>Liste des admin </h1> <br>
         <a href="add-admin.php" class="btn btn-primary">Ajouter un admin </a>
        <br><br>
+       <?php 
+        if (isset($_SESSION['insert'])) {?>           
+       <div class="message">
+
+           <span><?php echo $_SESSION['insert'] ?></span>
+       </div>
+       <?php 
+        }
+        ?>
+       
         <table>
             <tr>
             <th>#</th>
